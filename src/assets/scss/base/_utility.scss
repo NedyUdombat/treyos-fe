@@ -1,0 +1,32 @@
+@import './variables';
+
+html {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  .btn {
+    align-items: center;
+    border-radius: 6px;
+    color: $white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+
+  .btn-green {
+    background: $green;
+
+    a {
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}
